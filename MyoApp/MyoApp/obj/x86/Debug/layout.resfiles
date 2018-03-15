@@ -1,5 +1,7 @@
 WinMetadata\Windows.winmd
 Assets\appBack.jpg
+Assets\Drums.png
+Assets\guitar.png
 Assets\LockScreenLogo.scale-200.png
 Assets\Piano.png
 Assets\piano_B.mp3
@@ -12,6 +14,7 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\Trumpet.png
 Assets\Wide310x150Logo.scale-200.png
 MyoApp.xr.xml
 Properties\Default.rd.xml

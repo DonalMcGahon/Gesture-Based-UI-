@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="MyoApp.MainPage"
+    x:Class="MyoApp.drums"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MyoApp"
@@ -22,7 +22,7 @@
 
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
-                   Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click" />
+                   Width="50" Height="50" Background="Transparent" />
                         <TextBlock Text="Piano" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
@@ -45,8 +45,17 @@
             </SplitView.Pane>
         </SplitView>
 
+        <Image x:Name="image" Source="assets/Drums.png" Margin="230,30,220,9" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-0.541" ScaleX="1" ScaleY="1"/>
+            </Image.RenderTransform>
+        </Image>
 
-
+        <MediaElement x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
+        <MediaElement x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
+        <MediaElement x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
+        <MediaElement x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
+        <MediaElement x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
 
 
     </Grid>

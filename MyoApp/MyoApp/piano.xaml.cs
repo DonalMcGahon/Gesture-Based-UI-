@@ -17,19 +17,18 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace MyoApp
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page, INotifyPropertyChanged
-   
+    public sealed partial class piano : Page, INotifyPropertyChanged
     {
         private readonly global::Myo.Myo _myo;
 
-        public MainPage()
+        public piano()
         {
             this.InitializeComponent();
 
@@ -80,8 +79,90 @@ namespace MyoApp
             Debug.WriteLine("Channel #6: " + e.Channel6);
         }
 
+
+        private async void playPDS()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pds.Play();
+                }
+                );
+            
+        }
+        private async void playPD()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pd.Play();
+                }
+                );
+
+        }
+        private async void playPGS()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pg.Play();
+                }
+                );
+
+        }
+        private async void playPG()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pg.Play();
+                }
+                );
+
+        }
+        private async void playPB()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pb.Play();
+                }
+                );
+
+        }
         private void _myo_OnPoseDetected(object sender, Myo.MyoPoseEventArgs e)
         {
+            if (e.Pose == MyoPoseEventArgs.PoseType.Fist)
+            {
+
+                playPDS();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.DoubleTap)
+            {
+
+                playPD();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.WaveIn)
+            {
+
+                playPG();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.WaveOut)
+            {
+
+                playPGS();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.FingersSpread)
+            {
+
+                playPB();
+            }
+
+
             switch (e.Pose)
             {
                 case MyoPoseEventArgs.PoseType.Rest:
@@ -123,7 +204,7 @@ namespace MyoApp
 
         private void MenuButton1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(piano));
+            this.Frame.Navigate(typeof(MainPage));
         }
 
         private void MenuButton2_Click(object sender, RoutedEventArgs e)
