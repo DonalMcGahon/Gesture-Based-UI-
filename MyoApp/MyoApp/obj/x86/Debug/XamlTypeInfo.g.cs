@@ -132,15 +132,17 @@ namespace MyoApp.MyoApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[4];
             _typeNameTable[0] = "MyoApp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "MyoApp.piano";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[4];
             _typeTable[0] = typeof(global::MyoApp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::MyoApp.piano);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -176,6 +178,7 @@ namespace MyoApp.MyoApp_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::MyoApp.MainPage(); }
+        private object Activate_3_piano() { return new global::MyoApp.piano(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -200,6 +203,13 @@ namespace MyoApp.MyoApp_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::MyoApp.MyoApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  MyoApp.piano
+                userType = new global::MyoApp.MyoApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_piano;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

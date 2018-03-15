@@ -22,7 +22,7 @@
 
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='12' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
-                   Width="50" Height="50" Background="Transparent" />
+                   Width="50" Height="50" Background="Transparent"                           />
                         <TextBlock Text="Piano" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">

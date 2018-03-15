@@ -56,5 +56,6 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="MyoApp.MainPage" />
+    <RootType FullName="MyoApp.piano" />
   </Roots.RootTypes>
 </Roots>

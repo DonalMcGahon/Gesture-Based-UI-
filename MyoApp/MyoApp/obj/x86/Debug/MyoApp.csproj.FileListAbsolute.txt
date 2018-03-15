@@ -583,3 +583,8 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86
 C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\piano.g.i.cs
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\piano.g.cs
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\piano.xaml
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\obj\x86\Debug\piano.xbf
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\piano.xbf
