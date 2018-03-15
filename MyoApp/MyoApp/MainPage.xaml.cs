@@ -80,18 +80,100 @@ namespace MyoApp
             Debug.WriteLine("Channel #6: " + e.Channel6);
         }
 
+
+        private async void playPDS()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pds.Play();
+                }
+                );
+            
+        }
+        private async void playPD()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pd.Play();
+                }
+                );
+
+        }
+        private async void playPGS()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pg.Play();
+                }
+                );
+
+        }
+        private async void playPG()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pg.Play();
+                }
+                );
+
+        }
+        private async void playPB()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    pb.Play();
+                }
+                );
+
+        }
         private void _myo_OnPoseDetected(object sender, Myo.MyoPoseEventArgs e)
         {
-            //if (e.Pose != MyoPoseEventArgs.PoseType.Fist) return;
+            if (e.Pose == MyoPoseEventArgs.PoseType.Fist)
+            {
+
+                playPDS();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.DoubleTap)
+            {
+
+                playPD();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.WaveIn)
+            {
+
+                playPG();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.WaveOut)
+            {
+
+                playPGS();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.FingersSpread)
+            {
+
+                playPB();
+            }
+
 
             switch (e.Pose)
             {
                 case MyoPoseEventArgs.PoseType.Rest:
-                    pd.Play();
+                    Debug.WriteLine("Rest");
+
                     break;
                 case MyoPoseEventArgs.PoseType.Fist:
                     Debug.WriteLine("Fist");
-                    _myo.Unlock(Myo.Myo.UnlockType.Hold);
+                  
+                    //_myo.Unlock(Myo.Myo.UnlockType.Hold);
 
                     break;
                 case MyoPoseEventArgs.PoseType.WaveIn:
@@ -112,7 +194,10 @@ namespace MyoApp
 
 
         }
+        
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+
     }
 }

@@ -16,37 +16,13 @@
                 <CompositeTransform Rotation="-0.541" ScaleX="1" ScaleY="1"/>
             </Image.RenderTransform>
         </Image>
-        <Button x:ConnectionId='2' x:Name="D"  HorizontalAlignment="Left" Height="65" Margin="315,515,0,0" VerticalAlignment="Top" Width="95" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.228"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:ConnectionId='3' x:Name="DS"  HorizontalAlignment="Left" Height="75" Margin="415,505,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.228"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:ConnectionId='4' x:Name="G"  HorizontalAlignment="Left" Height="45" Margin="610,550,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.666,0.668" UseLayoutRounding="False" d:LayoutRounding="Auto" >
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.228" TranslateX="0.03" TranslateY="-0.051"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:ConnectionId='5' x:Name="GS"  HorizontalAlignment="Left" Height="45" Margin="685,545,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.228"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:ConnectionId='6' x:Name="B"  HorizontalAlignment="Left" Height="45" Margin="760,550,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="2.533,0.791" UseLayoutRounding="False" d:LayoutRounding="Auto">
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.228" TranslateX="0.051" TranslateY="-0.606"/>
-            </Button.RenderTransform>
-        </Button>
+       
 
-        <MediaElement x:ConnectionId='7' x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='8' x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='9' x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='10' x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='11' x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
+        <MediaElement x:ConnectionId='2' x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
+        <MediaElement x:ConnectionId='3' x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
+        <MediaElement x:ConnectionId='4' x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
+        <MediaElement x:ConnectionId='5' x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
+        <MediaElement x:ConnectionId='6' x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
 
 
     </Grid>

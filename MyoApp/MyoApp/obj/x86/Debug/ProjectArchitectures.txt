@@ -1,1 +1,1 @@
-C:\Users\root\Desktop\Gesture-Based-UI-\MyoApp\MyoApp\MyoApp.csproj;x86
+C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\MyoApp.csproj;x86
