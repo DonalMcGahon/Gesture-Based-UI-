@@ -204,7 +204,7 @@ namespace MyoApp
 
         private void MenuButton1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(piano));
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

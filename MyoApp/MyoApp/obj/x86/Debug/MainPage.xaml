@@ -17,26 +17,26 @@
             <SplitView.Pane>
 
                 <StackPanel Background="RosyBrown">
-                    <Button x:ConnectionId='8' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent"                               />
 
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='12' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                        <Button x:ConnectionId='6' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
                    Width="50" Height="50" Background="Transparent"                           />
                         <TextBlock Text="Piano" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='11' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                        <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
                        Width="50" Height="50" Background="Transparent" />
                         <TextBlock Text="Guitar" x:Uid="Medication" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='10' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                        <Button x:ConnectionId='4' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent" />
                         <TextBlock Text="Drums" x:Uid="Appoint" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='9' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                        <Button x:ConnectionId='3' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
                        Width="50" Height="50" Background="Transparent" />
                         <TextBlock Text="Trumpet" x:Uid="Signout" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
@@ -45,18 +45,8 @@
             </SplitView.Pane>
         </SplitView>
 
-        <Image x:ConnectionId='2' x:Name="image" Source="assets/piano.png" Margin="230,30,220,9" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
-            <Image.RenderTransform>
-                <CompositeTransform Rotation="-0.541" ScaleX="1" ScaleY="1"/>
-            </Image.RenderTransform>
-        </Image>
-       
 
-        <MediaElement x:ConnectionId='3' x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='4' x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='5' x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='6' x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
-        <MediaElement x:ConnectionId='7' x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
+
 
 
     </Grid>
