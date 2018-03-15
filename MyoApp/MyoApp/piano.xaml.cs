@@ -211,5 +211,10 @@ namespace MyoApp
         {
             this.Frame.Navigate(typeof(guitar));
         }
+
+        private void MenuButton3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(drums));
+        }
     }
 }

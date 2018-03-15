@@ -55,6 +55,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
+    <RootType FullName="MyoApp.drums" />
     <RootType FullName="MyoApp.guitar" />
     <RootType FullName="MyoApp.MainPage" />
     <RootType FullName="MyoApp.piano" />

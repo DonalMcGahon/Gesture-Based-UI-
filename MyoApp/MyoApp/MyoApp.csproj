@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="drums.xaml.cs">
+      <DependentUpon>drums.xaml</DependentUpon>
+    </Compile>
     <Compile Include="guitar.xaml.cs">
       <DependentUpon>guitar.xaml</DependentUpon>
     </Compile>
@@ -137,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="drums.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="guitar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
