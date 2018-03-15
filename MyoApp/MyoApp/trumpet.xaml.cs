@@ -24,11 +24,11 @@ namespace MyoApp
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class drums : Page, INotifyPropertyChanged
+    public sealed partial class trumpet : Page, INotifyPropertyChanged
     {
         private readonly global::Myo.Myo _myo;
 
-        public drums()
+        public trumpet()
         {
             this.InitializeComponent();
 
@@ -214,12 +214,12 @@ namespace MyoApp
 
         private void MenuButton3_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.Navigate(typeof(drums));
         }
 
         private void MenuButton4_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(trumpet));
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

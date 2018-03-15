@@ -132,21 +132,23 @@ namespace MyoApp.MyoApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[7];
             _typeNameTable[0] = "MyoApp.drums";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "MyoApp.guitar";
             _typeNameTable[4] = "MyoApp.MainPage";
             _typeNameTable[5] = "MyoApp.piano";
+            _typeNameTable[6] = "MyoApp.trumpet";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[7];
             _typeTable[0] = typeof(global::MyoApp.drums);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::MyoApp.guitar);
             _typeTable[4] = typeof(global::MyoApp.MainPage);
             _typeTable[5] = typeof(global::MyoApp.piano);
+            _typeTable[6] = typeof(global::MyoApp.trumpet);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -185,6 +187,7 @@ namespace MyoApp.MyoApp_XamlTypeInfo
         private object Activate_3_guitar() { return new global::MyoApp.guitar(); }
         private object Activate_4_MainPage() { return new global::MyoApp.MainPage(); }
         private object Activate_5_piano() { return new global::MyoApp.piano(); }
+        private object Activate_6_trumpet() { return new global::MyoApp.trumpet(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -228,6 +231,13 @@ namespace MyoApp.MyoApp_XamlTypeInfo
             case 5:   //  MyoApp.piano
                 userType = new global::MyoApp.MyoApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_5_piano;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  MyoApp.trumpet
+                userType = new global::MyoApp.MyoApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_trumpet;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

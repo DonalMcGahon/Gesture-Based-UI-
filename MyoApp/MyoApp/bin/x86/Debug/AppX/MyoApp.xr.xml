@@ -59,5 +59,6 @@
     <RootType FullName="MyoApp.guitar" />
     <RootType FullName="MyoApp.MainPage" />
     <RootType FullName="MyoApp.piano" />
+    <RootType FullName="MyoApp.trumpet" />
   </Roots.RootTypes>
 </Roots>
