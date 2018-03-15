@@ -87,7 +87,7 @@ namespace MyoApp
             switch (e.Pose)
             {
                 case MyoPoseEventArgs.PoseType.Rest:
-                    Debug.WriteLine("Rest");
+                    pd.Play();
                     break;
                 case MyoPoseEventArgs.PoseType.Fist:
                     Debug.WriteLine("Fist");
