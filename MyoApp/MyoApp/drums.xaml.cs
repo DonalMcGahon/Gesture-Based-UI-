@@ -80,86 +80,55 @@ namespace MyoApp
         }
 
 
-        private async void playPDS()
+        private async void playD1()
         {
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pds.Play();
+                    d1.Play();
                 }
                 );
 
         }
-        private async void playPD()
+        private async void playD2()
         {
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pd.Play();
+                    d2.Play();
                 }
                 );
 
         }
-        private async void playPGS()
+        private async void playD3()
         {
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pg.Play();
+                    d3.Play();
                 }
                 );
 
         }
-        private async void playPG()
-        {
-            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
-                () =>
-                {
-                    pg.Play();
-                }
-                );
 
-        }
-        private async void playPB()
-        {
-            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
-                () =>
-                {
-                    pb.Play();
-                }
-                );
-
-        }
         private void _myo_OnPoseDetected(object sender, Myo.MyoPoseEventArgs e)
         {
             if (e.Pose == MyoPoseEventArgs.PoseType.Fist)
             {
 
-                playPDS();
+                playD1();
             }
 
             if (e.Pose == MyoPoseEventArgs.PoseType.DoubleTap)
             {
 
-                playPD();
+                playD2();
             }
 
             if (e.Pose == MyoPoseEventArgs.PoseType.WaveIn)
             {
 
-                playPG();
-            }
-
-            if (e.Pose == MyoPoseEventArgs.PoseType.WaveOut)
-            {
-
-                playPGS();
-            }
-
-            if (e.Pose == MyoPoseEventArgs.PoseType.FingersSpread)
-            {
-
-                playPB();
+                playD3();
             }
 
 

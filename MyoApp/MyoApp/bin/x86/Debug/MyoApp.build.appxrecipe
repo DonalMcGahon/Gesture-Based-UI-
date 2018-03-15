@@ -343,6 +343,51 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\appBack.jpg">
       <PackagePath>Assets\appBack.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum1.mp3">
+      <PackagePath>Assets\drum1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum2.mp3">
+      <PackagePath>Assets\drum2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum3.mp3">
+      <PackagePath>Assets\drum3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar1.mp3">
+      <PackagePath>Assets\guitar1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar2.mp3">
+      <PackagePath>Assets\guitar2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar3.mp3">
+      <PackagePath>Assets\guitar3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar4.mp3">
+      <PackagePath>Assets\guitar4.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_B.mp3">
+      <PackagePath>Assets\piano_B.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D.mp3">
+      <PackagePath>Assets\piano_D.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D_sharp.mp3">
+      <PackagePath>Assets\piano_D_sharp.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G.mp3">
+      <PackagePath>Assets\piano_G.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G_sharp.mp3">
+      <PackagePath>Assets\piano_G_sharp.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet1.mp3">
+      <PackagePath>Assets\Trumpet1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet2.mp3">
+      <PackagePath>Assets\Trumpet2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet3.mp3">
+      <PackagePath>Assets\Trumpet3.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Drums.png">
       <PackagePath>Assets\Drums.png</PackagePath>
     </AppxPackagedFile>
@@ -381,21 +426,6 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_B.mp3">
-      <PackagePath>Assets\piano_B.mp3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D.mp3">
-      <PackagePath>Assets\piano_D.mp3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D_sharp.mp3">
-      <PackagePath>Assets\piano_D_sharp.mp3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G.mp3">
-      <PackagePath>Assets\piano_G.mp3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G_sharp.mp3">
-      <PackagePath>Assets\piano_G_sharp.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

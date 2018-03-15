@@ -120,8 +120,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\appBack.jpg" />
+    <Content Include="Assets\drum1.mp3" />
+    <Content Include="Assets\drum2.mp3" />
+    <Content Include="Assets\drum3.mp3" />
     <Content Include="Assets\Drums.png" />
     <Content Include="Assets\guitar.png" />
+    <Content Include="Assets\guitar1.mp3" />
+    <Content Include="Assets\guitar2.mp3" />
+    <Content Include="Assets\guitar3.mp3" />
+    <Content Include="Assets\guitar4.mp3" />
     <Content Include="Assets\Piano.png" />
     <Content Include="Assets\piano_B.mp3" />
     <Content Include="Assets\piano_D.mp3" />
@@ -129,6 +136,9 @@
     <Content Include="Assets\piano_G.mp3" />
     <Content Include="Assets\piano_G_sharp.mp3" />
     <Content Include="Assets\Trumpet.png" />
+    <Content Include="Assets\Trumpet1.mp3" />
+    <Content Include="Assets\Trumpet2.mp3" />
+    <Content Include="Assets\Trumpet3.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

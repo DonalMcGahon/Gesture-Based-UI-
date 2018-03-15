@@ -51,11 +51,9 @@
             </Image.RenderTransform>
         </Image>
 
-        <MediaElement x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
-        <MediaElement x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
-        <MediaElement x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
-        <MediaElement x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
-        <MediaElement x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
+        <MediaElement x:Name="d1" AutoPlay="False" Source="Assets/drum1.mp3"></MediaElement>
+        <MediaElement x:Name="d2" AutoPlay="False" Source="Assets/drum2.mp3"></MediaElement>
+        <MediaElement x:Name="d3" AutoPlay="False" Source="Assets/drum3.mp3"></MediaElement>
 
 
     </Grid>

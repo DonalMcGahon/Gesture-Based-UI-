@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-15T16:54:39.208</Modified>
+      <Modified>2018-03-15T17:48:07.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\MyoApp.exe">
       <PackagePath>entrypoint\MyoApp.exe</PackagePath>
-      <Modified>2018-03-15T16:54:38.449</Modified>
+      <Modified>2018-03-15T17:48:06.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -460,6 +460,66 @@
       <PackagePath>Assets\appBack.jpg</PackagePath>
       <Modified>2018-03-15T14:12:48.343</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum1.mp3">
+      <PackagePath>Assets\drum1.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum2.mp3">
+      <PackagePath>Assets\drum2.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum3.mp3">
+      <PackagePath>Assets\drum3.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar1.mp3">
+      <PackagePath>Assets\guitar1.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar2.mp3">
+      <PackagePath>Assets\guitar2.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar3.mp3">
+      <PackagePath>Assets\guitar3.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar4.mp3">
+      <PackagePath>Assets\guitar4.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_B.mp3">
+      <PackagePath>Assets\piano_B.mp3</PackagePath>
+      <Modified>2018-03-15T15:38:48.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D.mp3">
+      <PackagePath>Assets\piano_D.mp3</PackagePath>
+      <Modified>2018-03-15T15:38:48.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D_sharp.mp3">
+      <PackagePath>Assets\piano_D_sharp.mp3</PackagePath>
+      <Modified>2018-03-15T15:38:48.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G.mp3">
+      <PackagePath>Assets\piano_G.mp3</PackagePath>
+      <Modified>2018-03-15T15:38:48.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G_sharp.mp3">
+      <PackagePath>Assets\piano_G_sharp.mp3</PackagePath>
+      <Modified>2018-03-15T15:38:48.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet1.mp3">
+      <PackagePath>Assets\Trumpet1.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet2.mp3">
+      <PackagePath>Assets\Trumpet2.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Trumpet3.mp3">
+      <PackagePath>Assets\Trumpet3.mp3</PackagePath>
+      <Modified>2018-03-15T16:58:21.332</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Drums.png">
       <PackagePath>Assets\Drums.png</PackagePath>
       <Modified>2018-03-15T15:59:45.270</Modified>
@@ -510,26 +570,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-15T13:14:39.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_B.mp3">
-      <PackagePath>Assets\piano_B.mp3</PackagePath>
-      <Modified>2018-03-15T15:38:48.493</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D.mp3">
-      <PackagePath>Assets\piano_D.mp3</PackagePath>
-      <Modified>2018-03-15T15:38:48.494</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_D_sharp.mp3">
-      <PackagePath>Assets\piano_D_sharp.mp3</PackagePath>
-      <Modified>2018-03-15T15:38:48.496</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G.mp3">
-      <PackagePath>Assets\piano_G.mp3</PackagePath>
-      <Modified>2018-03-15T15:38:48.497</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\piano_G_sharp.mp3">
-      <PackagePath>Assets\piano_G_sharp.mp3</PackagePath>
-      <Modified>2018-03-15T15:38:48.500</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-15T13:14:39.000</Modified>
@@ -545,11 +585,11 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-15T16:54:39.005</Modified>
+      <Modified>2018-03-15T17:48:07.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\MyoApp.exe">
       <PackagePath>MyoApp.exe</PackagePath>
-      <Modified>2018-03-15T16:54:39.202</Modified>
+      <Modified>2018-03-15T17:48:07.305</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
