@@ -27,7 +27,7 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
-                       Width="50" Height="50" Background="Transparent" />
+                       Width="50" Height="50" Background="Transparent"                           />
                         <TextBlock Text="Guitar" x:Uid="Medication" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
