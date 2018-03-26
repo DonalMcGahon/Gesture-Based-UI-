@@ -343,6 +343,9 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\appBack.jpg">
       <PackagePath>Assets\appBack.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Cymbal.mp3">
+      <PackagePath>Assets\Cymbal.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\drum1.mp3">
       <PackagePath>Assets\drum1.mp3</PackagePath>
     </AppxPackagedFile>

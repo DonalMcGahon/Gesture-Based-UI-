@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\appBack.jpg" />
+    <Content Include="Assets\Cymbal.mp3" />
     <Content Include="Assets\drum1.mp3" />
     <Content Include="Assets\drum2.mp3" />
     <Content Include="Assets\drum3.mp3" />
