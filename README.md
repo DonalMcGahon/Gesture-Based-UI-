@@ -2,10 +2,35 @@
 Project for Gesture Based UI Development
 
 ## **Purpose of the application:**
-Design of the application including the screens of the user interface and
-how it works. The application can be an experimentation process for you, testing how pieces of
-hardware could interact or be combined with gestures. You don’t have to solve the world economic
-crisis just yet.
+**Purpose:**
+
+The purpose of this application is to allow the user to interact with muliple instruments by using gestures. The user will be able to select a certain instrument, weather it be a piano, guitar, drum set or trumpet, and create sounds using gestures with these instruments. As well as creating sounds the user will be able to record the music they created and play it back.
+
+**How it works:**
+
+The application is a Windows universal app, so the application is launched using Visual Studio. The user of the application must have a [Myo Armband](https://www.myo.com/) to interact with the application. When the app is launched the user is greeted with an opening page displaying a curtain and a hamburger view. Inside the hamburger view the user can navigate to 4 different instruments which include a piano, a guitar, drum set and a trumpet. Once the user navigates to any of these instruments, the instrument itself will appear on the screen and the user can now use that instrument and create sounds. The user makes gestures to interact with the instrument they have choosen. The gestures that are avaliable with the myo armband are creating a "Fist", "Finger tap", "Finger spread", "Wave out" and "Wave in". All of these gestures will create a sound with the instrument the user has choosen. When the user chooses, they can record the sounds they are making with the instrument by pressing the record button on the bottom of the screen. Once finished recording they can press stop. To play back the music they just created they can press the play button.
+
+**User Interface:**
+
+The user interface has a simple user friendly appeal. Their is a hamburger view on the left hand panel. The user can click this hanburger view and it will have a list of instruments for the user to choose from. 1 - Piano, 2 - Guitar, 3 - Drums, 4 - Trumpet.
+The users can navigate from one instrument to the next using this hamburger view.
+On the bottom of each of the instruments xaml pages their is a bottom app bar. On this bar is the record, stop and play buttons.
+
+__Screenshots of user interface:__
+
+#### Piano:
+
+![image](https://user-images.githubusercontent.com/14197773/37923388-efae2726-3126-11e8-8b8c-20e329b557fe.png)
+
+#### Guitar:
+![image](https://user-images.githubusercontent.com/14197773/37923454-1221d7d0-3127-11e8-8add-7dda87f9ca88.png)
+
+#### Drums:
+![image](https://user-images.githubusercontent.com/14197773/37923517-35f6c1a2-3127-11e8-9cb0-12e3bcc0a4f3.png)
+
+#### Trumpet:
+![image](https://user-images.githubusercontent.com/14197773/37923597-68fcd942-3127-11e8-86c8-d7ef2496148b.png)
+
 
 ## **Gestures identified as appropriate for this application:**
 Consider how gestures can be incorporated

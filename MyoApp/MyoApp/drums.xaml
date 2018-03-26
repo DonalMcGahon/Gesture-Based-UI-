@@ -8,9 +8,9 @@
     mc:Ignorable="d">
 
     <Page.BottomAppBar>
-        <AppBar IsOpen="True" IsSticky="True">
+        <AppBar IsOpen="True" IsSticky="True" Background="Gainsboro">
 
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" >
                 <AppBarButton x:Name="recordBtn" Label="Record" Icon="Microphone"  Click="recordBtn_Click"></AppBarButton>
                 <AppBarButton x:Name="stopBtn" Label="Stop" Icon="Stop" Click="stopBtn_Click"></AppBarButton>
                 <AppBarButton x:Name="playBtn" Label="Play" Icon="Play" Click="playBtn_Click"></AppBarButton>
@@ -27,7 +27,7 @@
                CompactPaneLength="50" OpenPaneLength="150">
             <SplitView.Pane>
 
-                <StackPanel Background="RosyBrown">
+                <StackPanel Background="RosyBrown" >
                     <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click" />
 

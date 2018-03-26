@@ -12,7 +12,7 @@
             <ImageBrush ImageSource="assets/appBack.jpg"/>
         </Grid.Background>
 
-        <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+        <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="True" 
                CompactPaneLength="50" OpenPaneLength="150">
             <SplitView.Pane>
 

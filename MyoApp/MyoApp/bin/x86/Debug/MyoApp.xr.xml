@@ -11,6 +11,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
       <RootProperty Name="IsOpen" />
       <RootProperty Name="IsSticky" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
