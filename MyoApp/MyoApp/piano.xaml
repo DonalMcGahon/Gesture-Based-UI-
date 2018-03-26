@@ -7,6 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.BottomAppBar>
+        <AppBar IsOpen="True" IsSticky="True">
+
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton x:Name="recordBtn" Label="Record" Icon="Microphone"  Click="recordBtn_Click"></AppBarButton>
+                <AppBarButton x:Name="stopBtn" Label="Stop" Icon="Stop" Click="stopBtn_Click"></AppBarButton>
+                <AppBarButton x:Name="playBtn" Label="Play" Icon="Play" Click="playBtn_Click"></AppBarButton>
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="assets/appBack.jpg"/>
