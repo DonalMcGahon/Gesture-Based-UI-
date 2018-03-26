@@ -3,12 +3,14 @@
 ## **Repository Table of Contents**
 1. [Project Specification](https://github.com/DonalMcGahon/Gesture-Based-UI-#project-specification)
 1. [Purpose of the application](https://github.com/DonalMcGahon/Gesture-Based-UI-#purpose-of-the-application)
-1. [Purpose](https://github.com/Smurfgalway/Final-Year-Project-Applied-Diss#technologies)
-1. [How it works](https://github.com/Smurfgalway/Final-Year-Project-Applied-Diss#architecture)
-1. [Project Specification](https://github.com/DonalMcGahon/Gesture-Based-UI-#project-specification)
-1. [Purpose of the application](https://github.com/DonalMcGahon/Gesture-Based-UI-#purpose-of-the-application)
-1. [Purpose](https://github.com/Smurfgalway/Final-Year-Project-Applied-Diss#technologies)
-1. [How it works](https://github.com/Smurfgalway/Final-Year-Project-Applied-Diss#architecture)
+1. [Purpose](https://github.com/DonalMcGahon/Gesture-Based-UI-#purpose)
+1. [How it works](https://github.com/DonalMcGahon/Gesture-Based-UI-#how-it-works)
+1. [User Interface](https://github.com/DonalMcGahon/Gesture-Based-UI-#user-interface)
+1. [Screenshots](https://github.com/DonalMcGahon/Gesture-Based-UI-#screenshots-of-user-interface)
+1. [Gestures identified as appropriate for this application](https://github.com/DonalMcGahon/Gesture-Based-UI-#gestures-identified-as-appropriate-for-this-application)
+1. [Hardware used](https://github.com/DonalMcGahon/Gesture-Based-UI-#hardware-used-in-creating-the-application)
+1. [Architecture](https://github.com/DonalMcGahon/Gesture-Based-UI-#architecture-for-the-solution)
+1. [Conclusions & Recommendations](https://github.com/DonalMcGahon/Gesture-Based-UI-#conclusions--recommendations)
 
 ### **Project Specification:**
 Develop an application with a Natural User Interface. You have a choice of technologies available to you and an opportunity to combine a lot of technology that you have worked with over the past four years.
@@ -32,7 +34,7 @@ The user interface has a simple user friendly appeal. Their is a hamburger view 
 The users can navigate from one instrument to the next using this hamburger view.
 On the bottom of each of the instruments xaml pages their is a bottom app bar. On this bar is the record, stop and play buttons.
 
-### __Screenshots of user interface:__
+### **Screenshots of user interface:**
 
 #### Piano:
 
