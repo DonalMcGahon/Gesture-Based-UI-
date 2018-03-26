@@ -32,22 +32,22 @@
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click" />
 
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
-                   Width="50" Height="50" Background="Transparent" />
+                        <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xF146;"
+                   Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click" />
                         <TextBlock Text="Piano" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                        <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xF147;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click" />
                         <TextBlock Text="Guitar" x:Uid="Medication" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                        <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xF148;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click" />
                         <TextBlock Text="Drums" x:Uid="Appoint" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                        <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xF149;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click" />
                         <TextBlock Text="Trumpet" x:Uid="Signout" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>

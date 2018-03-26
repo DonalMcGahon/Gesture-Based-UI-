@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-26T14:17:08.546</Modified>
+      <Modified>2018-03-26T14:41:06.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\MyoApp.exe">
       <PackagePath>entrypoint\MyoApp.exe</PackagePath>
-      <Modified>2018-03-26T14:17:07.652</Modified>
+      <Modified>2018-03-26T14:41:05.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -585,11 +585,11 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-26T14:17:08.138</Modified>
+      <Modified>2018-03-26T14:41:06.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\MyoApp.exe">
       <PackagePath>MyoApp.exe</PackagePath>
-      <Modified>2018-03-26T14:17:08.531</Modified>
+      <Modified>2018-03-26T14:41:06.881</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

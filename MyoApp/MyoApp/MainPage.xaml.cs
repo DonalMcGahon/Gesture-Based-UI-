@@ -45,32 +45,16 @@ namespace MyoApp
         private async void _myo_DataAvailable(object sender, MyoDataEventArgs e)
         {
             double x, y, z;
-            //Debug.WriteLine("In data avail");
             x = e.Acceletometer.X;
             y = e.Acceletometer.Y;
             z = e.Acceletometer.Z;
 
             await Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
-                {
-                    //update_ui(x, y, z);
-                });
+                {});
 
 
         }
-
-        /*private void update_ui(double x, double y, double z)
-        {
-            /xCoord.Text = "X: " + x;
-            yCoord.Text = "Y: " + y;
-            zCoord.Text = "Z: " + z;
-
-            xLine.X2 = xLine.X1 + x * 200;
-            yLine.Y2 = yLine.Y1 - y * 200;
-
-            zLine.X2 = zLine.X1 - z * 100;
-            zLine.Y2 = zLine.Y1 + z * 100;
-        }*/
 
         private void _myo_OnEMGAvailable(object sender, Myo.MyoEMGEventArgs e)
         {
@@ -90,21 +74,23 @@ namespace MyoApp
                     break;
                 case MyoPoseEventArgs.PoseType.Fist:
                     Debug.WriteLine("Fist");
-                  
-                    //_myo.Unlock(Myo.Myo.UnlockType.Hold);
 
                     break;
                 case MyoPoseEventArgs.PoseType.WaveIn:
                     Debug.WriteLine("Wave In");
+
                     break;
                 case MyoPoseEventArgs.PoseType.WaveOut:
                     Debug.WriteLine("Wave Out");
+
                     break;
                 case MyoPoseEventArgs.PoseType.DoubleTap:
                     Debug.WriteLine("Double Tap");
+
                     break;
                 case MyoPoseEventArgs.PoseType.FingersSpread:
                     Debug.WriteLine("Fingers Spread");
+
                     break;
                 default:
                     break;
