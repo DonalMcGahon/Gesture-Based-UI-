@@ -51,14 +51,33 @@ On the bottom of each of the instruments xaml pages their is a bottom app bar. O
 
 
 ## **Gestures identified as appropriate for this application:**
-Consider how gestures can be incorporated
-into the application, making a justified argument for the ones that you pick. This is a research
-element for the project.
+When we came to an agreement to use the Myo armband for our application we first researched what gestures were available with this technology. We found out that the Myo armband recognizes 5 pre-set gestures out of the box. They are as follows:
+
+**Wave Left:**
+
+![wave-in](https://user-images.githubusercontent.com/14197773/37971999-3840b4e2-31cf-11e8-8550-de2a66a2a585.gif)
+
+**Wave Right:**
+
+![wave-out](https://user-images.githubusercontent.com/14197773/37972291-ed4c308c-31cf-11e8-885d-f7e915ed7cbb.gif)
+
+**Double Tap:**
+
+![double-tap](https://user-images.githubusercontent.com/14197773/37972557-84faf4b8-31d0-11e8-9211-99afe084e4ae.gif)
+
+**Fist:**
+
+![fist](https://user-images.githubusercontent.com/14197773/37973027-7d5e8dcc-31d1-11e8-835d-26a744925626.gif)
+
+**Fingers Spread:**
+
+![finger-spread](https://user-images.githubusercontent.com/14197773/37973242-f60c4e80-31d1-11e8-8dd7-21f12081fd84.gif)
+
+For each of these gestures we found a way to integrate them into our app. We came up with the idea of allowing the user to use any of these gestures to play a certain note or sound from an intrument of their choosing.
+We also looked into how user friendly the myo armband was for our application. As our lecturer kindly gave us a myo armband to work with we were able to figure out for ourselves just how user friendly the myo armband actually is. We found that the armband fits very comfortably on the users arm. No matter what size arm the user has it streches and adjusts itself to the arm of the user. We then tested the gestures, each new user can create a custom profile with the Myo armband to allow for better reactions of the gestures. Once your profile is created, their is a series of gesture tests that can be preformed and we can say that the myo armband reacts quite well with all the available gestures.
 
 ## **Hardware used in creating the application:**
-You are not limited to the hardware listed above. If
-you have your own hardware, or hardware simulator that you wish to use, then feel free. The
-purpose of each piece of hardware should be given with a comparison to other options available.
+You are not limited to the hardware listed above. If you have your own hardware, or hardware simulator that you wish to use, then feel free. The purpose of each piece of hardware should be given with a comparison to other options available.
 
 ## **Architecture for the solution:**
 The full architecture for the solution, including the class diagrams,
@@ -66,5 +85,4 @@ any data models, communications and distributed elements that you are creating.
 
 ## **Conclusions & Recommendations:**
 Conclusions are what you have learned from this project and
-the associated research. Recommendations are what you would do differently if you were to
-undertake the project again. The Reflective Piece – what I learned and “enjoyed” 
+the associated research. Recommendations are what you would do differently if you were to undertake the project again. The Reflective Piece – what I learned and “enjoyed” 
