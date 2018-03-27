@@ -394,6 +394,9 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\Drums.png">
       <PackagePath>Assets\Drums.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\FingerSpread.png">
+      <PackagePath>Assets\FingerSpread.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar.png">
       <PackagePath>Assets\guitar.png</PackagePath>
     </AppxPackagedFile>

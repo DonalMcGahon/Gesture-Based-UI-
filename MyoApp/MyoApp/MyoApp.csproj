@@ -125,6 +125,7 @@
     <Content Include="Assets\drum2.mp3" />
     <Content Include="Assets\drum3.mp3" />
     <Content Include="Assets\Drums.png" />
+    <Content Include="Assets\FingerSpread.png" />
     <Content Include="Assets\guitar.png" />
     <Content Include="Assets\guitar1.mp3" />
     <Content Include="Assets\guitar2.mp3" />

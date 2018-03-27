@@ -52,7 +52,9 @@
                         <TextBlock Text="Trumpet" x:Uid="Signout" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
 
+
                 </StackPanel>
+
             </SplitView.Pane>
         </SplitView>
 
@@ -61,6 +63,8 @@
                 <CompositeTransform Rotation="-0.541" ScaleX="1" ScaleY="1"/>
             </Image.RenderTransform>
         </Image>
+
+        
 
         <MediaElement x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
         <MediaElement x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>

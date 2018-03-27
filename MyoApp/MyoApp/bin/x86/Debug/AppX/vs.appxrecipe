@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-26T17:52:01.843</Modified>
+      <Modified>2018-03-27T17:40:25.347</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\MyoApp.exe">
       <PackagePath>entrypoint\MyoApp.exe</PackagePath>
-      <Modified>2018-03-26T17:52:01.127</Modified>
+      <Modified>2018-03-27T17:40:24.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -528,6 +528,10 @@
       <PackagePath>Assets\Drums.png</PackagePath>
       <Modified>2018-03-15T15:59:45.270</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\FingerSpread.png">
+      <PackagePath>Assets\FingerSpread.png</PackagePath>
+      <Modified>2018-03-27T14:41:05.572</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\Assets\guitar.png">
       <PackagePath>Assets\guitar.png</PackagePath>
       <Modified>2018-03-15T15:59:45.284</Modified>
@@ -580,7 +584,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\MyoApp.xr.xml">
       <PackagePath>MyoApp.xr.xml</PackagePath>
-      <Modified>2018-03-26T17:49:11.997</Modified>
+      <Modified>2018-03-27T17:40:24.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -589,11 +593,11 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-26T17:52:01.650</Modified>
+      <Modified>2018-03-27T17:40:24.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Gesture-Based-UI-\MyoApp\MyoApp\bin\x86\Debug\Core\MyoApp.exe">
       <PackagePath>MyoApp.exe</PackagePath>
-      <Modified>2018-03-26T17:52:01.834</Modified>
+      <Modified>2018-03-27T17:40:25.328</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
