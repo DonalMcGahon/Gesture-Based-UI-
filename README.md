@@ -84,5 +84,5 @@ The full architecture for the solution, including the class diagrams,
 any data models, communications and distributed elements that you are creating.
 
 ## **Conclusions & Recommendations:**
-Conclusions are what you have learned from this project and
-the associated research. Recommendations are what you would do differently if you were to undertake the project again. The Reflective Piece – what I learned and “enjoyed” 
+Thoughout this project we have learned a lot. We have first of all gained some good experience of doing a hands on project as a team, therefore improving our teamwork skills. We also learned through research of the project, about different types of gesture hardware and how they work, the myo armband especially. With the myo armband we have gained experience working hands on with it, and how to create an application using the armband.
+If I were to start the project again I wouldn't change too much, but I would have liked to have found a way of adding more sounds and gestures to the application. Overall with the project I really enjoyed the experience of working with a hardware device to create an application for a project in college.
