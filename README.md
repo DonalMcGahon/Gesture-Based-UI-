@@ -87,7 +87,7 @@ When deciding how to approach this project collectively we decided to choose to 
 
 ### Demonstrated in diagram the below:
 
-[Diagram](https://i.imgur.com/krKtXji.png "Architecture Diagram")
+![Diagram](https://i.imgur.com/krKtXji.png "Architecture Diagram")
 
 
 ## **Conclusions & Recommendations:**
