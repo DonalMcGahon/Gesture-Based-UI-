@@ -61,7 +61,7 @@ namespace MyoApp
 
             await Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
-                {});
+                { });
 
 
         }
@@ -80,7 +80,7 @@ namespace MyoApp
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pds.Play();
+                    t1.Play();
                 }
                 );
 
@@ -90,7 +90,7 @@ namespace MyoApp
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pd.Play();
+                    t2.Play();
                 }
                 );
 
@@ -100,7 +100,7 @@ namespace MyoApp
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pg.Play();
+                    t3.Play();
                 }
                 );
 
@@ -110,7 +110,7 @@ namespace MyoApp
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pg.Play();
+                    t4.Play();
                 }
                 );
 
@@ -120,7 +120,7 @@ namespace MyoApp
             await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
                 {
-                    pb.Play();
+                    t5.Play();
                 }
                 );
 

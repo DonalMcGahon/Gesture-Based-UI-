@@ -61,7 +61,7 @@ namespace MyoApp
 
             await Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
                 () =>
-                {});
+                { });
 
 
         }
@@ -105,6 +105,26 @@ namespace MyoApp
                 );
 
         }
+        private async void playD4()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    d4.Play();
+                }
+                );
+
+        }
+        private async void playD5()
+        {
+            await Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    d5.Play();
+                }
+                );
+
+        }
 
         private void _myo_OnPoseDetected(object sender, Myo.MyoPoseEventArgs e)
         {
@@ -126,6 +146,17 @@ namespace MyoApp
                 playD3();
             }
 
+            if (e.Pose == MyoPoseEventArgs.PoseType.WaveOut)
+            {
+
+                playD4();
+            }
+
+            if (e.Pose == MyoPoseEventArgs.PoseType.FingersSpread)
+            {
+
+                playD5();
+            }
 
             switch (e.Pose)
             {

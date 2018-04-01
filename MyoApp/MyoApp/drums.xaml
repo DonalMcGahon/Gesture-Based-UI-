@@ -65,6 +65,8 @@
         <MediaElement x:Name="d1" AutoPlay="False" Source="Assets/drum1.mp3"></MediaElement>
         <MediaElement x:Name="d2" AutoPlay="False" Source="Assets/drum2.mp3"></MediaElement>
         <MediaElement x:Name="d3" AutoPlay="False" Source="Assets/drum3.mp3"></MediaElement>
+        <MediaElement x:Name="d4" AutoPlay="False" Source="Assets/drum4.mp3"></MediaElement>
+        <MediaElement x:Name="d5" AutoPlay="False" Source="Assets/drum5.mp3"></MediaElement>
 
 
     </Grid>

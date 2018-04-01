@@ -64,13 +64,13 @@
             </Image.RenderTransform>
         </Image>
 
-        
 
-        <MediaElement x:Name="pd" AutoPlay="False" Source="Assets/piano_D.mp3"></MediaElement>
-        <MediaElement x:Name="pds" AutoPlay="False" Source="Assets/piano_D_sharp.mp3"></MediaElement>
-        <MediaElement x:Name="pg" AutoPlay="False" Source="Assets/piano_G.mp3"></MediaElement>
-        <MediaElement x:Name="pgs" AutoPlay="False" Source="Assets/piano_G_sharp.mp3"></MediaElement>
-        <MediaElement x:Name="pb" AutoPlay="False" Source="Assets/piano_B.mp3"></MediaElement>
+
+        <MediaElement x:Name="t1" AutoPlay="False" Source="Assets/Trumpet1.mp3"></MediaElement>
+        <MediaElement x:Name="t2" AutoPlay="False" Source="Assets/Trumpet2.mp3"></MediaElement>
+        <MediaElement x:Name="t3" AutoPlay="False" Source="Assets/Trumpet3.mp3"></MediaElement>
+        <MediaElement x:Name="t4" AutoPlay="False" Source="Assets/Trumpet4.mp3"></MediaElement>
+        <MediaElement x:Name="t5" AutoPlay="False" Source="Assets/Trumpet5.mp3"></MediaElement>
 
 
     </Grid>
