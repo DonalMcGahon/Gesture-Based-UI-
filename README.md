@@ -11,7 +11,7 @@
 1. [Hardware used](https://github.com/DonalMcGahon/Gesture-Based-UI-#hardware-used-in-creating-the-application)
 1. [Architecture](https://github.com/DonalMcGahon/Gesture-Based-UI-#architecture-for-the-solution)
 1. [Conclusions & Recommendations](https://github.com/DonalMcGahon/Gesture-Based-UI-#conclusions--recommendations)
-1. [Project Demo](https://github.com/DonalMcGahon/Gesture-Based-UI-#Demo)
+1. [Project Demo](https://github.com/DonalMcGahon/Gesture-Based-UI-#demo)
 
 ### **Project Specification:**
 Develop an application with a Natural User Interface. You have a choice of technologies available to you and an opportunity to combine a lot of technology that you have worked with over the past four years.
