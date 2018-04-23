@@ -11,6 +11,7 @@
 1. [Hardware used](https://github.com/DonalMcGahon/Gesture-Based-UI-#hardware-used-in-creating-the-application)
 1. [Architecture](https://github.com/DonalMcGahon/Gesture-Based-UI-#architecture-for-the-solution)
 1. [Conclusions & Recommendations](https://github.com/DonalMcGahon/Gesture-Based-UI-#conclusions--recommendations)
+1. [Project Demo](https://github.com/DonalMcGahon/Gesture-Based-UI-#Demo)
 
 ### **Project Specification:**
 Develop an application with a Natural User Interface. You have a choice of technologies available to you and an opportunity to combine a lot of technology that you have worked with over the past four years.
@@ -90,3 +91,6 @@ When deciding how to approach this project collectively we decided to choose to 
 ## **Conclusions & Recommendations:**
 Throughout this project we have learned a lot. We have first of all gained some good experience of doing a hands on project as a team, therefore improving our teamwork skills. We also learned through research of the project, about different types of gesture hardware and how they work, the myo armband especially. With the myo armband we have gained experience working hands on with it, and how to create an application using the armband.
 If I were to start the project again I wouldn't change too much, but I would have liked to have found a way of adding more sounds and gestures to the application. Overall with the project I really enjoyed the experience of working with a hardware device to create an application for a project in college.
+
+## **Demo**
+[![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/14197773/39151193-70a6a918-473c-11e8-89bb-bd0b4086a95e.png)](https://www.youtube.com/watch?v=RpvSOTzMmvg)
